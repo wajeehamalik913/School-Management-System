@@ -1,0 +1,653 @@
+<html>
+	<head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			img {
+			  display: block;
+			  margin-left: auto;
+			  margin-right: auto;
+			}
+			
+			.container {
+			  position: relative;
+			  text-align: center;
+			  color: white;
+			}
+
+			.bottom-left {
+			  position: absolute;
+			  bottom: 8px;
+			  left: 16px;
+			}
+
+			.top-left {
+			  position: absolute;
+			  top: 8px;
+			  left: 16px;
+			}
+			
+			.top-left56 {
+			  position: absolute;
+			  top: 11px;
+			  left: 150px;
+			}
+
+			.top-right {
+			  position: absolute;
+			  top: 18px;
+			  right: 16px;
+			}
+
+			.bottom-right {
+			  position: absolute;
+			  bottom: 8px;
+			  right: 16px;
+			}
+
+			.centered {
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+			}
+			
+			.centered56 {
+			  position: absolute;
+			  top: 85%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+			}
+		
+			.image1a {
+			  position: absolute;
+			  top: 50%;
+			  left: 10%;
+			  transform: translate(-50%, -50%);
+			}
+		
+			.image1b {
+			  position: absolute;
+			  top: 50%;
+			  left: 90%;
+			  transform: translate(-50%, -50%);
+			}
+		
+			.centered123 {
+			  position: absolute;
+			  top: 35%;
+			  left: 65%;
+			  transform: translate(-50%, -50%);
+			}
+		
+			.centered557 {
+			  position: absolute;
+			  top: 25%;
+			  left: 30%;
+			  transform: translate(-50%, -50%);
+			}
+			
+			.img-circular{
+			  border-radius: 50%;
+			}
+			
+			.column {
+			  flex: 50%;
+			  padding: 10px;
+			  height: 300px; /* Should be removed. Only for demonstration */
+			}
+			
+			.finalsubmit12 {
+				  position: absolute;
+				  top: 185%;
+				  left: 27%;
+				  transform: translate(-50%, -50%);
+			}
+
+			.fsSubmitButton
+			{
+			padding: 10px 20px 11px !important;
+			font-size: 21px !important;
+			background-color: #F36C8C;
+			font-weight: bold;
+			text-shadow: 1px 1px #F36C8C;
+			color: #ffffff;
+			border-radius: 100px;
+			-moz-border-radius: 100px;
+			-webkit-border-radius: 100px;
+			border: 1px solid #F36C8C;
+			cursor: pointer;
+			box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+			-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+			-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+			}
+		
+		</style>
+
+	</head>
+	
+	<body>
+	
+		<div class="container">
+		 <img class="centered" src="3.jpg" height="100" width="3000" alt="3">
+		 <img class="top-left img-circular" src="4.jpg" height="70" width="80" alt="4" >
+		 <br>
+		 <br>
+		 <br>
+		 <br>
+		 <br>
+		 <div class="centered" height="70" width="80"><b><font size="9" face="algerian" color="866684">HAMARAY BACHEY</font></b></div>
+
+		</div>
+		<br>
+
+		 <div align="center" height="70" width="80"><b><font size="6" face="algerian" color="866684">Student Admission Form</font></b></div>
+		
+		<br>
+		
+		<img class="image1a" src="f.jpg" height="500" width="500" alt="3">
+		
+		<img class="image1b" src="g.jpg" height="500" width="500" alt="3">
+		
+		<form action="Student_Admission_Final.php" method="post" enctype="multipart/form-data">
+			<table align = "center">
+					
+						<tr>
+							<td colspan = "10">
+								<br>
+								<div><b><font size="5" face="algerian" color="866684">Student Information </font></b></div>
+								<br>
+							</td>
+						</tr>
+						
+
+					
+						<tr>
+							<td>
+							</td>
+							<td>
+								<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Name: </font></b></div>
+							</td>
+							<td>
+								<input type="text" name="Name" ><br><br>
+
+							</td>
+							<td></td>
+							<td></td>
+							
+
+							</td>
+						</tr>
+						
+						
+						
+						<tr>
+							<td></td>
+							<td>
+								<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Date of Birth: </font></b></div>
+							</td>
+							<td>
+								<input type="date" name="DOB" ><br><br>
+							</td>
+						</tr>
+						
+						<tr>
+							<td></td>
+							<td>
+								<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Gender: </font></b></div>
+							</td>
+							<td>
+							<label for= "gender"></label>
+							<select id="cars" name = "gender">
+							  <option value="M">Male</option>
+							  <option value="F">Female</option>
+							  <option value="O">other</option>
+							</select><br><br>
+							</td>
+							<td></td>
+							
+							<td></td>
+							<td rowspan = "2">
+							</td> 
+						</tr>
+						
+						<tr>
+							<td></td>
+							<td>
+								<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Bayform_No: </font></b></div>
+							</td>
+							<td><input type="text" name="bform" ><br><br></td>
+							<td></td>
+							<td></td>
+							<td>
+							</td>
+						</tr>
+						
+							<td></td>
+							<td class = "centered123">
+							 
+								<p><input type="file"  accept="image/*" name="fileToUpload" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+								<p><label for="file" style="cursor: pointer;">Choose Image</label></p>
+								<p><img id="output" width="100" Height = "120" /></p>
+								
+								<script>
+								var loadFile = function(event) {
+									var image = document.getElementById('output');
+									image.src = URL.createObjectURL(event.target.files[0]);
+								};
+								</script>
+							 
+							</td> 
+
+				
+				<tr></tr>
+				<tr>
+					
+					<td colspan = "10">________________________________________________________________________________________________________________________________</td>
+				</tr>
+				
+				<tr></tr>
+				
+				<br>
+				
+				<tr>
+					<td colspan = "10">
+						<br>
+						<div><b><font size="5" face="algerian" color="866684">Parents Information </font></b></div>
+						<br>
+					</td>
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td>
+						<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Mother Name: </font></b></div>
+					</td>
+					<td>
+						<input type="text" name="M_name" >
+					</td>
+					<td>
+						<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Father Name: </font></b></div>
+					</td>
+					<td>
+						<input type="text" name="F_name" >
+					</td>
+					
+					<td>
+						<br><br>
+					</td>
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td>
+						<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Mother CNIC: </font></b></div>
+					</td>
+					<td>
+						<input type="text" name="M_CNIC" >
+					</td>
+					<td>
+						<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Father CNIC: </font></b></div>
+					</td>
+					<td>
+						<input type="text" name="F_CNIC" >
+					</td>
+					
+					<td>
+						<br><br>
+					</td>
+					
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td>
+						<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Mother Contact: </font></b></div>
+					</td>
+					<td>
+						<input type="text" name="M_contact" >
+					</td>
+					<td>
+						<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Father Contact: </font></b></div>
+					</td>
+					<td>
+						<input type="text" name="F_contact" >
+					</td>
+					
+					<td>
+						<br><br>
+					</td>
+					
+				</tr>
+				
+				
+				<tr>
+					<td></td>
+					<td>
+						<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Mother Email: </font></b></div>
+					</td>
+					<td>
+						<input type="text" name="M_email" >
+					</td>
+					<td>
+						<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Father Email: </font></b></div>
+					</td>
+					<td>
+						<input type="text" name="F_email" >
+					</td>
+					
+					<td>
+						<br><br>
+					</td>
+					
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td>
+						<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Mother Address: </font></b></div>
+					</td>
+					<td>
+						<input type="text" name="M_add" >
+					</td>
+					<td>
+						<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Father Address: </font></b></div>
+					</td>
+					<td>
+						<input type="text" name="F_add" >
+					</td>
+					
+					<td>
+						<br><br>
+					</td>
+					
+				</tr>
+
+				<tr>
+					<td></td>
+					<td>
+						<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Mother Income: </font></b></div>
+					</td>
+					<td>
+						<input type="text" name="M_inc" >
+					</td>
+					<td>
+						<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Father Income: </font></b></div>
+					</td>
+					<td>
+						<input type="text" name="F_inc" >
+					</td>
+					
+					<td>
+						<br><br>
+					</td>
+					
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td>
+						<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Mother Employee ID: </font></b></div>
+					</td>
+					<td>
+						<input type="text" name="M_eid" >
+					</td>
+					<td>
+						<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Father Employee ID: </font></b></div>
+					</td>
+					<td>
+						<input type="text" name="F_eid" >
+					</td>
+					
+					<td>
+						<br><br>
+					</td>
+					
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td>
+						<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Is Alive ? </font></b></div>
+					</td>
+					<td>
+					  <label>Yes</label>
+					  <input type="radio" id="Yes" name="M_isalive" value="1">
+					  <label>No</label>
+					  <input type="radio" id="No" name="M_isalive" value="0">
+
+					</td>
+
+					<td>
+						<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Is Alive ? </font></b></div>
+					</td>
+					<td>
+					  <label>Yes</label>
+					  <input type="radio" id="Yes" name="F_isalive" value="1">
+					  <label>No</label>
+					  <input type="radio" id="No" name="F_isalive" value="0">
+
+					</td>
+					
+					<td>
+						<br><br>
+					</td>
+					
+				</tr>
+				
+				<tr></tr>
+				<tr>
+				<td colspan = "10">________________________________________________________________________________________________________________________________</td>
+				</tr>
+				
+				<tr></tr>
+				
+				<tr>
+					<tr>
+					<td colspan = "10">
+						<br>
+						<div><b><font size="5" face="algerian" color="866684">Guardian Information </font></b></div>
+						<br>
+
+					</td>
+					</tr>
+				</tr>
+
+				
+				<tr>
+					<td>
+					</td>
+					<td>
+							<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Guardian Name: </font></b></div>
+					</td>
+					<td>
+							<input type="text" name="G_name" >
+					</td>
+					
+					<td>
+						<br><br>
+					</td>
+					
+				</tr>
+				
+				<tr>
+					<td>
+					</td>
+					<td>
+						<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Guardian CNIC: </font></b></div>
+					</td>
+					<td>
+						<input type="text" name="G_CNIC" >
+					</td>
+					
+					<td>
+						<br><br>
+					</td>
+					
+				</tr>
+				
+				<tr>
+					<td>
+					</td>
+					<td>
+							<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Guardian Contact: </font></b></div>
+					</td>
+					<td>
+							<input type="text" name="G_contact" >
+					</td>
+					
+					<td>
+						<br><br>
+					</td>
+					
+				</tr>
+				
+				
+				<tr>
+						<td></td>
+						<td>
+							<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Guardian Gender: </font></b></div>
+						</td>
+						<td>
+						<label for= "G_gender"></label>
+						<select id="cars" name = "G_Gender">
+						  <option value="M">Male</option>
+						  <option value="F">Female</option>
+						  <option value="O">other</option>
+						</select>
+						</td>
+						
+						<td>
+						<br><br>
+					</td>
+						
+				</tr>
+				
+				<tr>
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td>
+							<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Relation with Student: </font></b></div>
+					</td>
+					<td>
+							<input type="text" name="G_relation" >
+					</td>
+					
+					<td>
+						<br><br>
+					</td>
+					
+				</tr>
+				
+				<tr>
+						<td></td>
+						<td>
+							<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Guardian Income: </font></b></div>
+						</td>
+						<td>
+						<input type="text" name="G_inc" >
+						</td>
+						
+						<td>
+						<br><br>
+					</td>
+						
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td>
+							<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Guardian Email: </font></b></div>
+					</td>
+					<td>
+							<input type="text" name="G_email" >
+					</td>
+					
+					<td>
+						<br><br>
+					</td>
+					
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td>
+						<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Guardian Address: </font></b></div>
+					</td>
+					<td>
+					<input type="text" name="G_Address" >
+					</td>
+					
+					<td>
+						<br><br>
+					</td>
+					
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td>
+						<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Guardian Employee ID: </font></b></div>
+					</td>
+					<td>
+						<input type="text" name="G_eid" >
+					</td>
+					
+				</tr>
+				
+				<tr></tr>
+				<tr>
+				<td colspan = "10">________________________________________________________________________________________________________________________________</td>
+				</tr>
+				
+				<tr></tr>
+				
+					<tr>
+					<td colspan = "10">
+						<br>
+						<div><b><font size="5" face="algerian" color="866684">Extra Information</font></b></div>
+						<br>
+
+					</td>
+				</tr>
+				
+				</tr>
+					<tr>
+					<td>
+					</td>
+					<td>
+						<div align="left" height="70" width="80"><b><font size="4" face="algerian" color="866684">Challan Number: </font></b></div>
+					</td>
+					<td>
+						<input type="text" name="fFinal" >
+					</td>
+					
+					<td>
+						<br><br>
+					</td>
+					
+				</tr>
+				
+				<tr></tr>
+				<tr></tr>
+				
+				
+				
+				<tr>
+				
+					<td>
+						<br><br><br><br><br><br>
+					</td>
+				
+					<td>
+						<input class = "fsSubmitButton" type = "submit" value = "Register" name = "button">
+
+					</td>
+				</tr>
+				
+			</table>
+		</form>
+	</body>
+</html>
